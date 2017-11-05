@@ -21,10 +21,10 @@ $('tr').hide().filter(function () {
 function addToMovieChoices(choice) {
   if(document.getElementById('choice1') === 'choose a movie') {
     document.getElementById('choice1') = choice;
-  } elseif (document.getElementById('choice2') === 'choose a movie' {
-    document.getElementById('choice1') = choice;
+  } elseif(document.getElementById('choice2') === 'choose a movie') {
+    document.getElementById('choice2') = choice;
   } else {
-    console.log("You've already made your two choices. Move on or deselect one.")
+    console.log("You've already made your two choices. Move on or deselect one.");
   }
 }
 

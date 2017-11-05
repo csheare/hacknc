@@ -1,0 +1,91 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: -35px;
+  background: -webkit-linear-gradient(top, white, darkred);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+    float: left;
+    clear: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2 {
+    float: left;
+    clear: left;
+    padding-right: 40px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 2em;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: left;
+    width: 550px;
+    padding-left: 40px;
+    font-family: Libre Franklin;
+}
+
+.overview {
+    text-align: left;
+}
+
+.first{
+    float: left;
+    clear: left;
+    width: 600px;
+    margin-top: -50px;
+    margin-left:10px;
+    font-size: 25px;
+}
+
+.second{
+    float: right;
+    clear: right;
+    width: 600px;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+.indent{
+    padding-left: 40px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 25pt;
+    font-style: bold;
+    font-family: Libre Franklin;
+}
+
+.title {
+    font-size: 55pt;
+    font-family: Libre Franklin;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000 ;
+}
+
+.winner{
+
+    font-size: 40pt;
+    font-family: Libre Franklin;
+    font-weight: 100;
+    text-shadow: 5px 5px yellow;
+    margin-top: -50px;
+}

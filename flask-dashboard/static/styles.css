@@ -1,11 +1,5 @@
-.choices {
-  padding: 2em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
-
 h1 {
-  padding: 2em;
+  text-align:center;
 }
 
 .myCarousel {
@@ -15,7 +9,34 @@ h1 {
 
 .item {
   text-align: center;
-  margin-left: 4em;
+  text-decoration-style: solid;
+  text-shadow: 0 0 10px #FF0000;
+
+}
+#titlep2{
+  font-family: "Great Vibes", cursive;
+  font-size: 100px; line-height: 160px;
+  font-weight: normal; margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 0 10px 10px #FF0000;
+}
+.carousel {
+  height: 580px;
+  overflow: hidden;
+  position:fixed;
+}
+
+.carousel-inner > .item > img {
+    margin: 20px auto;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+    filter: progid:none !important;>
 }
 
 /*For index3.html */
@@ -29,4 +50,9 @@ h1 {
     content: "";
     display: table;
     clear: both;
+}
+.choices{
+  margin-top: 10px;
+  text-align:center !important;
+  font-size: 20px;
 }
