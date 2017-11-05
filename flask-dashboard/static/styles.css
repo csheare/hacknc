@@ -1,0 +1,19 @@
+.choices {
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+h1 {
+  padding: 2em;
+}
+
+.myCarousel {
+  padding: 2em;
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  margin-left: 4em;
+}
