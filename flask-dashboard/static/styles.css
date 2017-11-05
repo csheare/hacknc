@@ -17,3 +17,16 @@ h1 {
   text-align: center;
   margin-left: 4em;
 }
+
+/*For index3.html */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
