@@ -3,10 +3,13 @@ body, html {
   width: 100%;
   margin: 0;
   margin-top: -35px;
-  background: -webkit-linear-gradient(top, white, darkred);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: -webkit-linear-gradient(top, white, darkred) fixed;
+  -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .img1 {
