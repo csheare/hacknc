@@ -8,5 +8,5 @@
 ### To run:
 #### Have python and the required packages installed(Flask, Requests, etc)
 #### Note: You will have to have the appropriate API keys
-#### python app.py or py app.py
+#### python app.py or py app.py to start flask server
 #### open browser and search for localhost at port 5000
